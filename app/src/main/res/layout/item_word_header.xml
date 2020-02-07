@@ -16,16 +16,20 @@
 
     <TextView
         android:id="@+id/tv_j"
+        android:textStyle="bold"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:text="@string/japanese"
         tools:text="japanese" />
 
     <TextView
         android:id="@+id/tv_e"
+        android:textStyle="bold"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:text="@string/english"
         tools:text="english" />
 
 </LinearLayout>
